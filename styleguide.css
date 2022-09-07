@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian&family=Quicksand:wght@320;400;600&display=swap');
+/* Cores */
+.primaria-1 {
+	background: #ff6e32;
+}
+.primaria-2 {
+	background: #a77de3;
+}
+.primaria-3 {
+	background: #10164E;
+}
+.primaria-4 {
+	background: #FFFFFF;
+}
+.secundaria-1 {
+	background: #ff9e37;
+}
+.secundaria-2 {
+	background: #737dcc;
+}
+/* Tipografia */
+.titulo-1 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 1em;
+	text-transform: uppercase;
+	color: #10164E;
+}
+.titulo-2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #10164E;
+}
+.titulo-3 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: #10164E;
+}
+
+.corpo-1 p {
+	font-family: 'Noto Serif Georgian', serif;
+	font-size: 16px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	color: #10164E;
+}
+.corpo-2 p {
+	font-family: 'Noto Serif Georgian', serif;
+	font-size: 20px;
+	line-height: 40px;
+	margin-bottom: 25px;
+	color: #10164E;
+}
+/* Botões e Links */
+.btn-primario a {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #ff6e32;
+    border: none;
+	text-transform: uppercase;
+	font-family: 'Quicksand', sans-serif;
+}
+.btn-primario a:hover {
+    background-color: #ff9e37;
+    transition: background-color 0.2s;
+}
+
+/* Formulário */
+label {
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 4px;
+	color: #10164E;
+	font-weight: 600;
+}
+input, textarea {
+	display: block;
+	width: 100%;
+	border: 2px solid #ff6e32;
+	border-radius: 10px;
+	background: none;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+	color: #10164E;
+	font-size: 15px;
+	font-family: 'Noto Serif Georgian', serif;
+}
+textarea {
+	min-height: 160px;
+}
+input:focus, input:hover, textarea:focus, textarea:hover {
+	outline: none;
+	border-color: #ff9e37;
+}
+
+button {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #ff6e32;
+    border: none;
+	text-transform: uppercase;
+	font-family: 'Quicksand', sans-serif;
+}
+button:hover {
+    background-color: #ff9e37;
+    transition: background-color 0.2s;
+}
